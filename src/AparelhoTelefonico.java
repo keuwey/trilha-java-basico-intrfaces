@@ -1,4 +1,4 @@
-public interface AparelhoTelefonico {
+interface AparelhoTelefonico {
     void ligar();
     void atender();
     void iniciarCorreioDeVoz();
