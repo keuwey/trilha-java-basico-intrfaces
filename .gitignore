@@ -1,8 +1,11 @@
+*.log
+*.iml
+
 ### IntelliJ IDEA ###
 out/
-.idea
-!**/src/main/**/out/
-!**/src/test/**/out/
+.idea/
+!/src/main//out/
+!/src/test//out/
 
 ### Eclipse ###
 .apt_generated
@@ -13,8 +16,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!/src/main//bin/
+!/src/test//bin/
 
 ### NetBeans ###
 /nbproject/private/
